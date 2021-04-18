@@ -1,7 +1,6 @@
 import boto3
 import logging
 from botocore.exceptions import ClientError
-import os
 
 
 def s3_client():
