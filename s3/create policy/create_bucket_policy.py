@@ -26,6 +26,6 @@ def create_bucket_policy(bucket_name):
         Policy=policy_string
     )
 
- 
+
 if __name__ == '__main__':
     print(create_bucket_policy(BUCKET_NAME))
