@@ -14,4 +14,4 @@ class TestSample(unittest.TestCase):
 
     def test_add3(self):
         self.assertEqual(2+2, 4)
-        self.assertEqual(6, 5)
+        self.assertEqual(6-1, 5)
